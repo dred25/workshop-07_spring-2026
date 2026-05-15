@@ -1,9 +1,9 @@
 ---
 title: "Linear regression: Sonadora temperature and elevation example"
-author: "your name here"
-date: "insert date here"
+author: "Damian Rojas"
+date: "2026-5-15"
 format:
-  html:
+  pdf:
     toc: true # use this to display a table of contents
 execute:
   message: false # use this to make sure messages don't show up
@@ -78,9 +78,9 @@ sonadora_sum <- sonadora_clean |>
 #| label: temperature-visualization
 
 # base layer: ggplot
-ggplot(data = sonadora_sum, 
-       aes(x = elevation_m,
-           y = mean_temp_c)) +
+ggplot(data = sonadora_sum, #data from sonadora summary
+       aes(x = elevation_m, #x-axis elevation in meters
+           y = mean_temp_c)) + # y-axis mean temp in degrees celsius  
   # first layer: points representing temperature at each elevation
   geom_point()
 
@@ -105,8 +105,8 @@ temperature_model <- lm(
 #| label: temperature-diagnostics
 
 # diagnostics
-par(mfrow = c(2, 2))
-plot(temperature_model)
+par(mfrow = c(2, 2)) #displays data in a 2x2 table
+plot(temperature_model) #displays diagnostic plot of temperature model
 
 ```
 
