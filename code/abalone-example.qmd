@@ -137,8 +137,8 @@ Look at the column names using `colnames(abalone_preds)` in the Console.
 
 What are the column names?  
 
-'x', 'predicted', 'std.error', 'conf.low', 'conf.high'(not going to worry about
-'group' right now)
+`x`, `predicted`, `std.error`, `conf.low`, `conf.high`(not going to worry about
+`group` right now)
 
 Look at the actual object (by clicking on it in Environment).  
 
@@ -146,7 +146,7 @@ Look at the class of the object using `class(abalone_preds)` in the Console.
 
 What is this type of object?  
 
-It is a 'ggeffects' output and a regular data fram
+It is a `ggeffects` output and a regular data fram
 
 View `abalone_preds` like a data frame. 
 
