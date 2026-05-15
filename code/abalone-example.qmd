@@ -34,9 +34,9 @@ Data from Hamilton et al. 2022. "Integrated multi-trophic aquaculture mitigates 
 
 Question: How does pH predict abalone growth (measured in change in shell surface area per day, mm^-2^ d^-1^)?  
 
-H~0~: **[fill in here]**  
+H~0~: **pH has no effect abalone shell growth**  
 
-H~A~: **[fill in here]**
+H~A~: **pH does have an effect on abalone shell growth**
 
 ## b. Cleaning
 
