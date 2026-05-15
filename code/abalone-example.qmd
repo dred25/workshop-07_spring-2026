@@ -170,7 +170,8 @@ ggpredict(
 
 How would you interpret this?  
 
-**insert your response here**
+**At ph = 8, the model predicts change in abalone shell surface area to be 5.36 
+[95% CI: 5.08, 5.65] mm^2^ d^-1^.**
 
 ### Visualizing model predictions and data
 
